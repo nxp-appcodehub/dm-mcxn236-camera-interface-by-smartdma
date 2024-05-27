@@ -22,7 +22,7 @@ Supported formats (8-bit): RGB565
 • Maximum image transfer rate: 30 fps for QVGA(320 × 240). For small RAM parts, reduce the size of image and frame
 rate.
 
-• Camera module tested: OV7673
+• Camera module tested: OV7670
 
 • Other camera modules can be supported as long as they provide the same signal timing.
 
@@ -63,7 +63,7 @@ rate.
 
 Connect the LCD-PAR-S035 with FRDM-MCXN236, connect OV7670 camera module with FRDM-MCXN236, as shown below:
 
-![hardware](./images/hardware.png)
+![hardware](./images/hardware.jpg)
 
 ### 3.2 Step 2
 
@@ -93,7 +93,7 @@ Connect the LCD-PAR-S035 with FRDM-MCXN236, connect OV7670 camera module with FR
 
 The demo result as below:
 
-​	![](./images/result.png)
+​	![](./images/result.jpg)
 
 ## 5. Support<a name="step5"></a>
 
