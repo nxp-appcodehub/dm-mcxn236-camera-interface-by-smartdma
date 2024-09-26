@@ -5,7 +5,7 @@
  * Generated linker script file for MCXN236
  * Created from library.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v11.10.0_ear2 [Build 3079] [2024-04-11] on May 23, 2024, 5:23:40 PM
+ * MCUXpresso IDE v11.10.0 [Build 3148] [2024-07-03] on Sep 26, 2024, 6:19:54 PM
  */
 
 GROUP (

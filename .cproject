@@ -321,9 +321,20 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<folderInfo id="com.crt.advproject.config.exe.debug.635068360.1064191634" name="/" resourcePath="component">
+						<toolChain id="com.crt.advproject.toolchain.exe.debug.1064639795" name="NXP MCU Tools" superClass="com.crt.advproject.toolchain.exe.debug" unusedChildren="">
+							<tool id="com.crt.advproject.cpp.exe.debug.726646863" name="MCU C++ Compiler" superClass="com.crt.advproject.cpp.exe.debug.160896587"/>
+							<tool id="com.crt.advproject.gcc.exe.debug.1122380227" name="MCU C Compiler" superClass="com.crt.advproject.gcc.exe.debug.1962689358"/>
+							<tool id="com.crt.advproject.gas.exe.debug.2094078409" name="MCU Assembler" superClass="com.crt.advproject.gas.exe.debug.1648090494"/>
+							<tool id="com.crt.advproject.link.cpp.exe.debug.826208227" name="MCU C++ Linker" superClass="com.crt.advproject.link.cpp.exe.debug.730942664"/>
+							<tool id="com.crt.advproject.link.exe.debug.1932353411" name="MCU Linker" superClass="com.crt.advproject.link.exe.debug.637751004"/>
+							<tool id="com.crt.advproject.tool.debug.debug.1828880902" name="MCU Debugger" superClass="com.crt.advproject.tool.debug.debug.539501579"/>
+						</toolChain>
+					</folderInfo>
 					<sourceEntries>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="CMSIS"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="board"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="component"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="device"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="drivers"/>
 						<entry flags="LOCAL|VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="source"/>
@@ -721,4 +732,5 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="openCmsis"/>
 </cproject>
